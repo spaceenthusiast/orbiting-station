@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrbitingStation.com</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background: url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=3000&q=80') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 4.5em;
+            margin: 20px 0;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+        }
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .images img {
+            width: 600px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+        }
+        a.back {
+            color: #4da6ff;
+            text-decoration: none;
+            font-size: 1.5em;
+            margin: 40px 0;
+            display: inline-block;
+        }
+        a.back:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 60px;
+            padding: 20px;
+            font-size: 1.2em;
+            border-top: 1px solid rgba(255,255,255,0.2);
+        }
+    </style>
+    <script>
+        function openEmail(domainName) {
+            var user = 'spacedomains';
+            var domain = 'proton.me';
+            var subject = 'Domain Inquiry - ' + domainName;
+            var body = 'Hi,\n\nI\'m interested in purchasing ' + domainName + '\n\nOffer: $\n\nName:\n\nThanks!';
+            var mailtoLink = 'mailto:' + user + '@' + domain + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+            window.location.href = mailtoLink;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>OrbitingStation.com</h1>
+        
+        <p>This domain focuses on the orbiting station — compact or modular platforms circling Earth or other bodies, designed for research, crewed operations, satellite servicing, or as stepping stones to the Moon, Mars, and beyond in the growing space infrastructure.</p>
+        
+        <div class="images">
+            <img src="https://cdn.mos.cms.futurecdn.net/VBEtHgHZFNf3yVZDELJufb.jpg" alt="Concept art of an orbiting space station in Earth orbit" onerror="this.src='https://images.unsplash.com/photo-1606125784258-570fc63c22c1?auto=format&fit=crop&w=3000&q=80';">
+            <img src="https://images-assets.nasa.gov/image/Artemis%20-%20Gateway%20-%20Artemis%20IV%20-%20Gateway%20Landscape/Artemis%20-%20Gateway%20-%20Artemis%20IV%20-%20Gateway%20Landscape~large.jpg?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint" alt="NASA's planned orbiting Gateway station near the Moon" onerror="this.src='https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=3000&q=80';">
+            <img src="https://cdn.forumcomm.com/dims4/default/305189d/2147483647/strip/true/crop/923x615+79+0/resize/840x560!/quality/90/?url=https%3A%2F%2Ffcc-cue-exports-brightspot.s3.us-west-2.amazonaws.com%2Fduluthnewstribune%2Fbinary%2FISS%20in%20orbit%20NASA_binary_6847579.jpg" alt="International Space Station as an orbiting station example" onerror="this.src='https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=3000&q=80';">
+            <img src="https://static.vecteezy.com/system/resources/previews/027/827/794/non_2x/futuristic-space-station-in-orbit-of-planet-earth-3d-illustration-photo.jpg" alt="Futuristic modular orbiting station visualization" onerror="this.src='https://4kwallpapers.com/images/wallpapers/galaxy-milky-way-stars-deep-space-colorful-astronomy-nebula-3840x2160-5381.jpg';">
+        </div>
+        
+        <p>Contact me for inquiries about this domain:</p>
+        
+        <p>
+            <a href="javascript:void(0)" onclick="openEmail('orbitingstation.com')"
+            style="background-color: #28a745; color: white; padding: 16px 32px; text-decoration: none; border-radius: 8px; display: inline-block; font-size: 18px; font-weight: bold; cursor: pointer;">
+            Email Me
+            </a>
+        </p>
+        
+        <p>Or email me directly:</p>
+        
+        <img src="https://i.imgflip.com/agw139.jpg" alt="Email: spacedomains@proton.me" style="max-width: 600px; height: auto; display: block; margin: 20px auto;">
+        
+        <p>Feel free to include your offer and any questions.</p>
+        
+        <a href="https://spaceenthusiast.github.io" class="back">← Back to Portfolio</a>
+        
+        <div class="footer">
+            <p>Still here?</p>
+            <p>Visit my <a href="https://spaceenthusiast.proboards.com" style="color: #4da6ff; text-decoration: none; font-weight: bold;">Space Enthusiast Forum</a> if you have the inclination.</p>
+            <p>Read my article about nuclear bomb powered rockets:</p>
+            <p><a href="https://www.spacedaily.com/news/nuclearspace-03h.html" style="color: #4da6ff; text-decoration: none; font-weight: bold;">The Case For Orion</a> by Wayne Smith.</p>
+        </div>
+    </div>
+</body>
+</html>
